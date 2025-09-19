@@ -50,6 +50,8 @@ main {
     box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12);
 }
 
+
+
 .story { 
     font-size: 20px; }
 
@@ -124,6 +126,7 @@ main {
 
 .product-item h3 { 
     margin: 10px 0 6px; }
+    
 .price { 
     font-weight: 700; 
     color: #6a4e23; }
@@ -180,6 +183,31 @@ footer {
 }
 footer a { color: #3e4a5e; text-decoration: none; }
 footer a:hover { color: #6a4e23; }
+
+
+.menu-image {
+  background: #fff;
+  margin: 40px 20px 20px; /* เว้นด้านบนมากขึ้น */
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.menu-image h2 {
+  margin: 0 0 16px;
+  font-weight: 700;
+}
+
+.menu-image img {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 6px px rgba(0, 0, 0, 0.12);
+  margin: 0 auto;
+  display: block;
+}
 
 
 @media (max-width: 600px) {
